@@ -1,0 +1,32 @@
+:root{
+    --black-replacement: #262d36;
+    --grey-replacement:#babdc2;
+    --highlight: #ebd334;
+  }
+
+#python-logo{
+    width:100px;
+    height:100px;
+}
+
+.svg-logos{
+    width:100px;
+    height:100px;
+}
+
+.svg-logos path {
+    fill: var(--grey-replacement) !important;
+}
+
+.svg-logos rect{
+    fill: var(--black-replacement)
+}
+
+.scroll-menu svg{
+    margin-right:60px;
+}
+
+.title{
+    color:var(--black-replacement) !important;
+}
+
